@@ -1,0 +1,35 @@
+.center-text {
+  text-align: center;
+}
+
+.my-nav {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 2;
+}
+
+.hero {
+  background-image: url("imgs/oslo.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  z-index: 1;
+  height: 50vh;
+}
+
+.hero-child { 
+  position: relative;
+  color: #039be5;
+  text-align: center;
+}
+
+.hero-text {
+  color: black;
+  text-align: center;
+
+}
+
+.fill {
+  object-fit: fill;
+}
